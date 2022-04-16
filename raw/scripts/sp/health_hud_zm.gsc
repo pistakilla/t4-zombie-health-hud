@@ -13,7 +13,7 @@ onConnect()
 	for(;;)
 	{
 		level waittill( "connecting", player );
-        	player thread health_hud();
+        player thread health_hud();
 	}
 }
 
