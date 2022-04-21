@@ -49,6 +49,6 @@ health_hud()
 	while(1)
 	{
 		health SetValue(self.health);
-	    wait 0.01;
+	    wait 0.05;
 	}
 }
